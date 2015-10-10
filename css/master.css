@@ -1,0 +1,43 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.header-panel{
+  position: fixed;
+  width: 100%;
+  /*background: #266FB1;*/
+  background: #fff;
+  color: #888;
+}
+
+.row-master{
+  /*padding:10px 0px 10px 0px;*/
+}
+
+.master-col-6{
+  padding:10px 0px 10px 0px;
+  float: left;
+  display:inline;
+  width: 50%;
+}
+
+.master-col-12{
+  padding:10px 0px 10px 0px;
+  float: left;
+  display:inline;
+  width: 100%;
+}
+
+.logo > h1{
+  line-height: 0;
+  font-size: 1.5em;
+}
+
+.border-shadow1{
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+}
